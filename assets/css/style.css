@@ -12,6 +12,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
+/*HEADER STYLING*/
+
 header {
 
     display:flex;
@@ -62,6 +64,16 @@ header a{
     border-bottom: 4px solid var(--bright3);
     padding: 5px 10px;    
     
+}
+
+/*IMAGE STYLING*/
+
+.float {
+
+    float:left;
+    padding: 20px 20px 0px 10px;
+    width: 200px;
+
 }
 
 .cropvalue1 {
@@ -154,6 +166,8 @@ header a{
     
   }
 
+/*MAIN SECTION (non image) STYLING*/  
+
 main {
 
     background-color: var(--bright1);
@@ -186,7 +200,8 @@ article {
 
 article p {
 
-    font-size: 20px;
+    font-size: 26px;
+    padding-top: 20px
 }
 
 aside {
@@ -216,6 +231,8 @@ section a {
     color: var(--dark)
 }
 
+/*HARD LINK STYLING - Can be cleaned in future*/
+
 .link-style{
 
     font-size: 20px;
@@ -227,6 +244,8 @@ section a {
     
 }
 
+/*FOOTER STYLING*/
+
 footer{
 
     display:flex;
@@ -234,12 +253,9 @@ footer{
     padding: 50px 0 20px 0;
     justify-content: center;
     
-    
-    
-    
 }
 
-
+/*FLEX PROPERTIES - Can be cleaned up in future, unneeded extra stylings*/
 
 .flex {
 
@@ -255,6 +271,8 @@ justify-content: space-evenly;
 padding-top: 30px;
 
 }
+
+/*MEDIA CHANGE VALUE*/
 
 @media screen and (max-width: 1050px) {
     header{
