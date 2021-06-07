@@ -1,7 +1,7 @@
 :root {
     --dark: #33393f;
-    --bright1: #2aefcb;
-    --bright2: #e0eae4;
+    --bright1: #add8e6;
+    --bright2: #ebecf0;
     --bright3: #e866ec;
   }
 
@@ -70,12 +70,51 @@ header a{
     height:350px;
     object-fit: cover;
     object-position: 50% 35%;
+    
     }
 
-.imgcontainer {
+.cropvalue2 {
 
+    height:200px;
+    width:540px;
+    object-fit: cover;
+    object-position: 50% 35%;
+    border: 4px solid var(--bright2);
+    opacity: 0.4;
+    transition: opacity 0.4s;
+}
+ 
+.cropvalue2:hover {
+
+    opacity: 1;
+}
+
+.cropvalue3 {
+    
+    width: 99%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border: 4px solid var(--bright2);
+    opacity: 0.4;
+    transition: opacity 0.4s; 
+}
+
+.cropvalue3:hover {
+
+    opacity: 1;
+}
+
+.imgcontainer {
     position: relative;
     color: var(--dark);
+    border-bottom: 4px solid var(--dark);
+}
+
+.imgcontainer2 {
+    position: relative;
+    color: var(--dark);
+    
 
 }
 
@@ -88,11 +127,31 @@ header a{
     height: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
-    display:flex;
-    align-items: center;
-    justify-content: flex-end;
     padding-right: 20px;
+    text-align: right;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
     box-shadow: 5px 5px;
+    
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: var(--bright2);
+    width: 100px;
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    padding-right: 20px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 5px 5px;
+
+    
   }
 
 main {
@@ -118,7 +177,7 @@ main section {
 }
 
 article {
-    flex:wrap;
+
     border-left: 6px solid var(--bright3);
     padding: 0 0 0 50px;
     width:60%;
@@ -135,10 +194,69 @@ aside {
     text-align: right;
     width:20%;
     padding: 20px 20px;
-    /*border-right: 4px solid var(--bright3);*/
+    
 }
 
-@media screen and (max-width: 1000px) {
+section nav {
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+section li{
+
+
+    margin: 10px;
+
+}
+
+section a {
+
+    text-decoration: none;
+    color: var(--dark)
+}
+
+.link-style{
+
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--bright3);
+    border-bottom: 4px solid var(--bright3);
+    padding: 5px 10px;
+    font-size: 24px;    
+    
+}
+
+footer{
+
+    display:flex;
+    background-color: var(--bright1);
+    padding: 50px 0 20px 0;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+
+
+.flex {
+
+    display:flex;
+    flex-wrap:wrap;
+    ;
+   
+}
+
+.flex-spacing {
+
+justify-content: space-evenly;
+padding-top: 30px;
+
+}
+
+@media screen and (max-width: 1050px) {
     header{
       flex-direction: column;
     }
