@@ -274,7 +274,7 @@ padding-top: 30px;
 
 /*MEDIA CHANGE VALUE*/
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
     header{
       flex-direction: column;
     }
