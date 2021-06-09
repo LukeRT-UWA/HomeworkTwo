@@ -102,7 +102,7 @@ header a{
 }
 
 .cropvalue3 {
-    
+    flex: 1 0 100%;
     width:100%;
     object-fit: cover;
     object-position: 50% 90%;
@@ -231,7 +231,7 @@ section nav {
 section li{
 
 
-    margin: 10px;
+    margin:5px 10px 5px 10px;
 
 }
 
