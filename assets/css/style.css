@@ -250,7 +250,9 @@ section a {
     color: var(--bright3);
     border-bottom: 4px solid var(--bright3);
     padding: 5px 10px;
-    font-size: 24px;    
+    font-size: 24px;
+
+    
     
 }
 
@@ -287,6 +289,12 @@ footer{
 
 }
 
+.top-padding {
+
+
+    padding-top: 25px;
+
+}
 
 /*MEDIA CHANGE VALUE*/
 
