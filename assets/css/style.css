@@ -88,7 +88,7 @@ header a{
 .cropvalue2 {
     flex: 1 0 100%;
     height:200px;
-    width:540px;
+    width:200px;
     object-fit: cover;
     object-position: 50% 35%;
     border: 4px solid var(--bright2);
@@ -125,7 +125,7 @@ header a{
 }
 
 .imgcontainer2 {
-    flex: 1 0 300px;
+    flex: 1 0 40%;
     position: relative;
     color: var(--dark);
     
@@ -281,12 +281,7 @@ footer{
     height:300px;
 
 }
-.flex-spacing {
 
-justify-content: space-evenly;
-padding-top: 30px;
-
-}
 
 /*MEDIA CHANGE VALUE*/
 
