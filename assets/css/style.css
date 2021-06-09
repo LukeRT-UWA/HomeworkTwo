@@ -211,7 +211,8 @@ article {
 article p {
 
     font-size: 26px;
-    padding-top: 20px
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 aside {
