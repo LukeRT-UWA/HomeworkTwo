@@ -275,6 +275,11 @@ footer{
    
 }
 
+.flex-spacing {
+
+    justify-content: space-evenly;
+}
+
 .width {
 
     width:100%;
