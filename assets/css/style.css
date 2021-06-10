@@ -164,13 +164,10 @@ header a{
     bottom: 20px;
     left: -4px;
     background-color: var(--bright2);
-    width: 100px;
-    height: 60px;
+    width: 140px;
+    height: 105px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 32px;
     padding-right: 20px;
-    display:flex;
-    justify-content: flex-end;
     align-items: center;
     box-shadow: 5px 5px;
 
@@ -193,7 +190,17 @@ h2 {
     color: var(--bright3);
     
     }
-    
+
+h3 {
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark);
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+
 main section {
 
     display:flex;
@@ -214,6 +221,14 @@ article p {
     font-size: 26px;
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+div p {
+
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark);
+    text-align: right;
 }
 
 aside {
