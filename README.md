@@ -10,6 +10,4 @@ All "Work" links currently point to the same deployed work (assignment one) - wi
 
 Used lorem ipsum text in About Me section.
 
-Todos: Add text below h3 tags in work section.
-
 ![Website Screenshot](assets/images/website-screenshot.jpg)
