@@ -97,10 +97,7 @@ header a{
     transition: opacity 0.5s;
 }
  
-.cropvalue2:hover {
 
-    opacity: 1;
-}
 
 .cropvalue3 {
     flex: 1 0 100%;
@@ -114,10 +111,7 @@ header a{
     
 }
 
-.cropvalue3:hover {
 
-    opacity: 1;
-}
 
 .imgcontainer {
     position: relative;
@@ -133,15 +127,29 @@ header a{
 
 }
 
+.imgcontainer2:hover .cropvalue2 {
+
+
+    opacity:1;
+
+
+}
+
 .imgcontainer3 {
     
     width:100%;
     position: relative;
     color: var(--dark);
     outline: 4px solid var(--bright2);
-    
 
 }
+
+.imgcontainer3:hover .cropvalue3 {
+
+    opacity:1;
+
+}
+
 
 .bottom-right {
     position: absolute;
@@ -174,6 +182,12 @@ header a{
     box-shadow: 5px 5px;
 
     
+  }
+
+  .bottom-left:hover  ~ .cropvalue2 {
+
+    opacity:1;
+
   }
 
 /*MAIN SECTION (non image) STYLING*/  
