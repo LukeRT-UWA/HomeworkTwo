@@ -83,7 +83,7 @@ header a{
     width:100%;
     height:250px;
     object-fit: cover;
-    object-position: 50% 35%;
+    object-position: 50% 70%;
     
     }
 
@@ -322,5 +322,8 @@ footer{
     header{
       flex-direction: column;
     }
+    .flex-spacing{
+        flex-direction: column;
+      }
 }
 
