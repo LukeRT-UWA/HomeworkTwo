@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Initial } from './pages/initial';
 import { Header } from './components/header';
-
+import { Hero } from './components/hero';
 const App: React.FC = () => {
   return (
     <>
-    <Header>
-      <div>Test</div>
-    </Header>
-    <Initial/>
+    <Header/>
+    <Hero/>
+    <Hero/>
     </>
   );
 }
