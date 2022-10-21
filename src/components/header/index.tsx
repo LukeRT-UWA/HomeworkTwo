@@ -27,7 +27,7 @@ export const Header: React.FC<Props> = ({ children }) => {
   }
   },[]);
   return (
-    <>
+    <div className={style.headerWrapper}>
       <div className={style.headerLayout}>
         <div ref={logoRef}>Logo</div>
         <div className={style.menuItems}> 
@@ -38,7 +38,7 @@ export const Header: React.FC<Props> = ({ children }) => {
         </div>
       </div>
       <div className={style.belowBorder}></div>
-    </>
+    </div>
   )
 
 }
