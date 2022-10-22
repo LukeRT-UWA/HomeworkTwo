@@ -1,48 +1,47 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from './index.module.css';
-
+import { Button } from "../UI/button";
 export type Props = {
   children?: React.ReactNode
 }
 
-export const Header: React.FC<Props> = ({ }) => {
+export const Header: React.FC<Props> = () => {
 
   useEffect(() => {
-    setInProp(!inProp)
+    setIsMounted(!isMounted)
   }, []);
 
-  const nodeRef = useRef(null);
-  const [inProp, setInProp] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   return (
     <div className={styles.headerWrapper}>
       <div className={styles.headerLayout}>
         <div >Logo</div>
         <div className={styles.menuItems}>
-          <div 
-          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
-          style={{transitionDelay: `100ms`}}
+          <div
+            className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
+            style={{ transitionDelay: `100ms` }}
           >
-            Test !!!
-            </div>
-            <div 
-          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
-          style={{transitionDelay: `200ms`}}
-          >
-            Test !!!
-            </div>
-            <div 
-          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
-          style={{transitionDelay: `300ms`}}
-          >
-            Test !!!
-            </div>
-            <div 
-          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
-          style={{transitionDelay: `400ms`}}
-          >
-            Test !!!
-            </div>
+            <Button>Click 1</Button>
           </div>
+          <div
+            className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
+            style={{ transitionDelay: `200ms` }}
+          >
+            <Button>Click 2</Button>
+          </div>
+          <div
+            className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
+            style={{ transitionDelay: `300ms` }}
+          >
+            <Button>Click 3</Button>
+          </div>
+          <div
+            className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
+            style={{ transitionDelay: `400ms` }}
+          >
+            <Button>Click 4</Button>
+          </div>
+        </div>
       </div>
       <div className={styles.belowBorder}></div>
     </div>
