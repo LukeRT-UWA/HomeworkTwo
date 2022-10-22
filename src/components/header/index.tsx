@@ -21,25 +21,25 @@ export const Header: React.FC<Props> = () => {
             className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
             style={{ transitionDelay: `100ms` }}
           >
-            <Button>Click 1</Button>
+            <Button onClick={()=>alert('clicked!')}>Click 1</Button>
           </div>
           <div
             className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
             style={{ transitionDelay: `200ms` }}
           >
-            <Button>Click 2</Button>
+            <Button onClick={()=>alert('clicked!')}>Click 2</Button>
           </div>
           <div
             className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
             style={{ transitionDelay: `300ms` }}
           >
-            <Button>Click 3</Button>
+            <Button onClick={()=>alert('clicked!')}>Click 3</Button>
           </div>
           <div
             className={isMounted ? styles.menuItemMounted : styles.menuItemMounting}
             style={{ transitionDelay: `400ms` }}
           >
-            <Button>Click 4</Button>
+            <Button onClick={()=>alert('clicked!')}>Click 4</Button>
           </div>
         </div>
       </div>
