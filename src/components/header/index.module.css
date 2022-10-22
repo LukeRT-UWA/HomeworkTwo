@@ -29,3 +29,16 @@
   min-height: 1px;
   width: 96%;
 }
+
+.myThing {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.myThingDone, .my-node-enter-done {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: width 2s, height 2s
+}
