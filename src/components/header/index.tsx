@@ -19,26 +19,26 @@ export const Header: React.FC<Props> = ({ }) => {
         <div >Logo</div>
         <div className={styles.menuItems}>
           <div 
-          className={inProp ? styles.myThingDone : styles.myThing}  
+          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
+          style={{transitionDelay: `100ms`}}
+          >
+            Test !!!
+            </div>
+            <div 
+          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
           style={{transitionDelay: `200ms`}}
           >
             Test !!!
             </div>
             <div 
-          className={inProp ? styles.myThingDone : styles.myThing}  
+          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
+          style={{transitionDelay: `300ms`}}
+          >
+            Test !!!
+            </div>
+            <div 
+          className={inProp ? styles.menuItemMounted : styles.menuItemMounting}  
           style={{transitionDelay: `400ms`}}
-          >
-            Test !!!
-            </div>
-            <div 
-          className={inProp ? styles.myThingDone : styles.myThing}  
-          style={{transitionDelay: `600ms`}}
-          >
-            Test !!!
-            </div>
-            <div 
-          className={inProp ? styles.myThingDone : styles.myThing}  
-          style={{transitionDelay: `800ms`}}
           >
             Test !!!
             </div>

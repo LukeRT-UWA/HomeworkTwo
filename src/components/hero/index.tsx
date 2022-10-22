@@ -11,7 +11,7 @@ export const Hero: React.FC<Props> = ({ children }) => {
   const heroRef = useRef(null)
   useEffect(() => {
     if (heroRef.current !== null) {
-      sr?.reveal(heroRef.current, srItemConfig(400))
+      sr?.reveal(heroRef.current, srItemConfig(600))
     }
   }, []);
   return (

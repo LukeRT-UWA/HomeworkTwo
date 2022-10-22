@@ -22,6 +22,8 @@
 .menuItems {
   display: flex;
   gap: 60px;
+  height: 100%;
+  align-items: center;
 }
 
 .belowBorder {
@@ -30,15 +32,21 @@
   width: 96%;
 }
 
-.myThing {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.menuItemMounting {
+  transform: translateY(-50%);
+  height:100%;
+  transition-timing-function: ease-out !important;
+  display: flex;
+  align-items: center;
+  opacity: 0
 }
 
-.myThingDone, .my-node-enter-done {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  transition: width 2s, height 2s
+.menuItemMounted {
+  transform: translateY(0%);
+  transition-timing-function: ease-out !important;
+  transition: transform 400ms, opacity 400ms;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 1
 }
