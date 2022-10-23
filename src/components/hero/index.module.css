@@ -5,4 +5,5 @@
   align-items: center;
   font-size: 200px;
   color: white;
+  flex-direction: column;
 }

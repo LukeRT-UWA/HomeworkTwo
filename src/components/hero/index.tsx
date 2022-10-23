@@ -17,6 +17,7 @@ export const Hero: React.FC<Props> = ({ children }) => {
   return (
     <div className={style.heroWrapper} ref={heroRef}>
       <div> hello </div>
+      <div> Elizabeth </div>
     </div>
   )
 
