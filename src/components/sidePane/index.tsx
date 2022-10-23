@@ -23,11 +23,24 @@ export const SidePane: React.FC<Props> = () => {
         >
             <div className={styles.sidePaneAbove}></div>
             <div className={styles.sidePane}>
-
-            <IconTwitter/>
-            <IconGitHub/>
-            <IconLinkedin/>
-
+                <a href="https://github.com/LukeRT-UWA"
+                    aria-label="GitHub"
+                    target="_blank"
+                    rel="noreferrer">
+                    <IconTwitter />
+                    </a>
+                    <a href="https://github.com/LukeRT-UWA"
+                    aria-label="GitHub"
+                    target="_blank"
+                    rel="noreferrer">
+                    <IconGitHub />
+                    </a>
+                    <a href="https://github.com/LukeRT-UWA"
+                    aria-label="GitHub"
+                    target="_blank"
+                    rel="noreferrer">
+                    <IconLinkedin />
+                    </a>
             </div>
             <div className={styles.sidePaneBelow}></div>
         </div>

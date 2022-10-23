@@ -3,6 +3,7 @@ import './App.css';
 import { Header } from './components/header';
 import { Hero } from './components/hero';
 import { SidePane } from './components/sidePane';
+
 const App: React.FC = () => {
   return (
     <>
